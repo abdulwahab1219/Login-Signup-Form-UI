@@ -11,7 +11,7 @@ const App = () => {
     <div className='font-ubuntu bg-gray-200 h-screen w-full flex items-center justify-center'>
       <div className='relative h-[80vh] w-[60vw] bg-white shadow-lg rounded-3xl overflow-hidden flex'>
 
-        {/* Forms Container */}
+        {/* Forms Container by Abdul Wahab */}
         <div className='w-full h-full flex'>
           <motion.div animate={{opacity: isLogin ? 1 : 0}} transition={{duration: 1}} className='w-1/2 h-full flex items-center justify-center'>
             <Login />
